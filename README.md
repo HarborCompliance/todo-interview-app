@@ -30,73 +30,72 @@ Before you can use Homestead, you need to install and configure Vagrant and Home
 
 *Acceptance criteria*
 
-Given I’m on the create task screen,
-And I’m logged in,
-I can see four required input fields on the page
-- task name (text)
-- description (paragraphs)
-- status (select list - Draft, In Progress, Completed)
-- assign user (select list),
-then I fill all the above required input fields,
-And I press the “Submit” button
-I should be redirected to the home page
+- Given I’m on the create task screen,
+- And I’m logged in,
+- I can see four required input fields on the page
+  - task name (text)
+  - description (paragraphs)
+  - status (select list - Draft, In Progress, Completed)
+  - assign user (select list),
+- then I fill all the above required input fields,
+- And I press the “Submit” button
+- I should be redirected to the home page
 
 
 *Story #2* - As an unauthenticated user, I can view all the tasks
 
 *Acceptance criteria*
 
-Given that I’m on the homepage,
-I can see all the tasks in a table,
-With four columns (name, description, status, user name),
-They are paginated with 10 records on each page,
-Each todo has an "edit", and "delete" link
+- Given that I’m on the homepage,
+- I can see all the tasks in a table,
+- With four columns (name, description, status, user name),
+- They are paginated with 10 records on each page,
+- Each todo has an "edit", and "delete" link
 
 *Story #3* - As an unauthenticated user, I can log in
 
 *Acceptance criteria*
 
-Given that I'm on the homepage,
-I can see a login link,
-When I press the login link, 
-Then I'm redirected to the "login" page,
-And I can see two required input fields on the page
-- username
-- password
-Then I fill all the above required fields with the correct details,
-And I press the "Login" button,
-Then I should be redirected to the home page,
-And I see logout link,
-But I do not see login link
+- Given that I'm on the homepage,
+- I can see a login link,
+- When I press the login link, 
+- Then I'm redirected to the "login" page,
+- And I can see two required input fields on the page
+  - username
+  - password
+- Then I fill all the above required fields with the correct details,
+- And I press the "Login" button,
+- Then I should be redirected to the home page,
+- And I see logout link,
+- But I do not see login link
 
 *Story #4* - As an authenticated user, I can update a todo
 
 *Acceptance criteria*
 
-Given that I'm on the homepage,
-
-I can see a list of todos each with an edit link,
-And I press the edit link for todo #1,
-Then I am redirected to the edit todo page,
-I can see three required input fields on the page
-- task name (text)
-- description (paragraphs)
-- status (select list - Draft, In Progress, Completed)
-Then I fill all the above required input fields,
-And I press the “Submit” button,
-Then I should be redirected to the home page
+- Given that I'm on the homepage,
+- I can see a list of todos each with an edit link,
+- And I press the edit link for todo #1,
+- Then I am redirected to the edit todo page,
+- I can see three required input fields on the page
+  - task name (text)
+  - description (paragraphs)
+  - status (select list - Draft, In Progress, Completed)
+- Then I fill all the above required input fields,
+- And I press the “Submit” button,
+- Then I should be redirected to the home page
 
 *Story #5* - As an authenticated user, I can delete a todo
 
 *Acceptance criteria*
 
-Given that I'm on the homepage,
-I can see a list of todos each with a delete link,
-And I press the delete link for todo #1,
-Then I see a confirmation popup with a confirm button,
-And I press the confirm button,
-Then I am redirected to the home page,
-And I cannot see task #1 listed on the homepage
+- Given that I'm on the homepage,
+- I can see a list of todos each with a delete link,
+- Add I press the delete link for todo #1,
+- Then I see a confirmation popup with a confirm button,
+- And I press the confirm button,
+- Then I am redirected to the home page,
+- And I cannot see task #1 listed on the homepage
 
 ## Bonus User Story
 
@@ -104,14 +103,11 @@ And I cannot see task #1 listed on the homepage
 
 *Acceptance criteria*
 
-Given that I’m on the homepage,
-I can see all the todos in a table as descibred in Story #2,
-And I can also see a dropdown filter that contains the available todo statuses,
-And I can see a search button,
-I select a status from the select,
-And I press the search button,
-I can only see the todos with the selected status.
+- Given that I’m on the homepage,
+- I can see all the todos in a table as descibred in Story #2,
+- And I can also see a dropdown filter that contains the available todo statuses,
+- And I can see a search button,
+- I select a status from the select,
+- And I press the search button,
+- I can only see the todos with the selected status.
 
-
-
-Add the ability to filter todos by status (it is up to you want to do this asynchonously).
