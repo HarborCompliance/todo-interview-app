@@ -37,7 +37,7 @@ The below user stories will provide details for what features the application sh
 - I can see four required input fields on the page
   - task name (text)
   - description (paragraphs)
-  - status (select list - Draft, In Progress, Completed)
+  - status (select list - Not Started, In Progress, Completed)
   - assign user (select list),
 - then I fill all the above required input fields,
 - And I press the “Submit” button
