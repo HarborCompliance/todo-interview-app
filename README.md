@@ -9,7 +9,7 @@ Using either CakePHP, Symfony, Laravel, or Yii
 - access to the internet
 - a php capable IDE (we suggest PhpStorm)
 - working setup of PHP 7.1+
-- mySQL 5.8+
+- mySQL 5.8+ (recommended)
 - composer (https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 - nginx or alternative simple web server
 
@@ -36,12 +36,13 @@ The below user stories will provide details for what features the application sh
 - And I’m logged in,
 - I can see four required input fields on the page
   - task name (text)
-  - description (paragraphs)
+  - description (text area)
   - status (select list - Not Started, In Progress, Completed)
   - assign user (select list),
 - then I fill all the above required input fields,
 - And I press the “Submit” button
 - I should be redirected to the home page
+- And I see the new task
 
 
 *Story #2* - As an unauthenticated user, I can view all the tasks
@@ -50,9 +51,9 @@ The below user stories will provide details for what features the application sh
 
 - Given that I’m on the homepage,
 - I can see all the tasks in a table,
-- With four columns (name, description, status, username),
-- They are paginated with 10 records on each page,
-- Each task has an "edit", and "delete" link
+- With five columns (name, description, status, username, action),
+- And I can see the "edit" and "delete" links within the action column,
+- The tasks are paginated with 10 records on each page,
 
 *Story #3* - As an unauthenticated user, I can log in
 
@@ -81,11 +82,12 @@ The below user stories will provide details for what features the application sh
 - Then I am redirected to the edit task page,
 - I can see three required input fields on the page
   - task name (text)
-  - description (paragraphs)
+  - description (text area)
   - status (select list - Not Started, In Progress, Completed)
 - Then I fill all the above required input fields,
 - And I press the “Submit” button,
-- Then I should be redirected to the home page
+- Then I should be redirected to the home page,
+- And I see the task with updated data
 
 *Story #5* - As an authenticated user, I can delete a task
 
@@ -99,14 +101,21 @@ The below user stories will provide details for what features the application sh
 - Then I am redirected to the home page,
 - And I cannot see task #1 listed on the homepage
 
+## Add / Edit Task Form Notes
+- When submitting the form, validation rules should be enforced
+- If at least one field fails validation, the form should not be submitted
+- A validation error should be displayed to the user for every field that fails validation
+
 ## Bonus User Story
+
+If time permits or you want to have some more fun, feel free to implement the below user story.
 
 As an unauthenticated user, I can filter tasks based on status
 
 *Acceptance criteria*
 
 - Given that I’m on the homepage,
-- I can see all the tasks in a table as descibred in Story #2,
+- I can see all the tasks in a table as described in Story #2,
 - And I can also see a dropdown filter that contains the available task statuses,
 - And I can see a search button,
 - I select a status from the dropdown,
