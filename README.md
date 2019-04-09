@@ -26,6 +26,8 @@ Before you can use Homestead, you need to install and configure Vagrant and Home
 
 ## Application User Stories
 
+The below user stories will provide details for what features that application should have.
+
 *Story #1* - As an authenticated user, I want to create a task.
 
 *Acceptance criteria*
@@ -99,7 +101,7 @@ Before you can use Homestead, you need to install and configure Vagrant and Home
 
 ## Bonus User Story
 
-*Bonus Story* - As an unauthenticated user, I can filter todos based on status
+As an unauthenticated user, I can filter todos based on status
 
 *Acceptance criteria*
 
@@ -107,7 +109,6 @@ Before you can use Homestead, you need to install and configure Vagrant and Home
 - I can see all the todos in a table as descibred in Story #2,
 - And I can also see a dropdown filter that contains the available todo statuses,
 - And I can see a search button,
-- I select a status from the select,
+- I select a status from the dropdown,
 - And I press the search button,
 - I can only see the todos with the selected status.
-
