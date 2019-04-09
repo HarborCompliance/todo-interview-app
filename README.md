@@ -117,3 +117,7 @@ As an unauthenticated user, I can filter tasks based on status
 1) If you're looking for a timeframe estimate, we estimate this application to take roughly 5-7 hours of development time. We don't want you to worry too much about time though. We understand that everyone has busy lives and generally not much free time so we want you to focus on quality of code instead of sheer speed.
 
 2) There may be questions that arise during development. We encourage you to ask as many questions as you'd like. If you do have questions please send them to [Derek Fulginiti](mailto:dfulginiti@harborcompliance.com) and he will get back to you as soon as possible.
+
+3) When you begin your application please create a repository and send an email to [Derek Fulginiti](mailto:dfulginiti@harborcompliance.com) containing a link to the repo. We encourage you to commit early and often so that it's easy for us to track your thought processes and workflow patterns.
+
+Happy Coding!
