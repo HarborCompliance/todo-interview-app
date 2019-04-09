@@ -50,9 +50,9 @@ The below user stories will provide details for what features the application sh
 
 - Given that I’m on the homepage,
 - I can see all the tasks in a table,
-- With four columns (name, description, status, user name),
+- With four columns (name, description, status, username),
 - They are paginated with 10 records on each page,
-- Each todo has an "edit", and "delete" link
+- Each task has an "edit", and "delete" link
 
 *Story #3* - As an unauthenticated user, I can log in
 
@@ -68,32 +68,32 @@ The below user stories will provide details for what features the application sh
 - Then I fill all the above required fields with the correct details,
 - And I press the "Login" button,
 - Then I should be redirected to the home page,
-- And I see logout link,
-- But I do not see login link
+- And I see a logout link,
+- But I do not see a login link
 
-*Story #4* - As an authenticated user, I can update a todo
+*Story #4* - As an authenticated user, I can update a task
 
 *Acceptance criteria*
 
 - Given that I'm on the homepage,
-- I can see a list of todos each with an edit link,
-- And I press the edit link for todo #1,
-- Then I am redirected to the edit todo page,
+- I can see a list of tasks each with an edit link,
+- And I press the edit link for task #1,
+- Then I am redirected to the edit task page,
 - I can see three required input fields on the page
   - task name (text)
   - description (paragraphs)
-  - status (select list - Draft, In Progress, Completed)
+  - status (select list - Not Started, In Progress, Completed)
 - Then I fill all the above required input fields,
 - And I press the “Submit” button,
 - Then I should be redirected to the home page
 
-*Story #5* - As an authenticated user, I can delete a todo
+*Story #5* - As an authenticated user, I can delete a task
 
 *Acceptance criteria*
 
 - Given that I'm on the homepage,
-- I can see a list of todos each with a delete link,
-- Add I press the delete link for todo #1,
+- I can see a list of tasks each with a delete link,
+- Add I press the delete link for task #1,
 - Then I see a confirmation popup with a confirm button,
 - And I press the confirm button,
 - Then I am redirected to the home page,
@@ -101,14 +101,14 @@ The below user stories will provide details for what features the application sh
 
 ## Bonus User Story
 
-As an unauthenticated user, I can filter todos based on status
+As an unauthenticated user, I can filter tasks based on status
 
 *Acceptance criteria*
 
 - Given that I’m on the homepage,
-- I can see all the todos in a table as descibred in Story #2,
-- And I can also see a dropdown filter that contains the available todo statuses,
+- I can see all the tasks in a table as descibred in Story #2,
+- And I can also see a dropdown filter that contains the available task statuses,
 - And I can see a search button,
 - I select a status from the dropdown,
 - And I press the search button,
-- I can only see the todos with the selected status.
+- I can only see the tasks with the selected status.
