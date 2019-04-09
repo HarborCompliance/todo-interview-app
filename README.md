@@ -4,7 +4,7 @@ Using either CakePHP, Symfony, Laravel, or Yii
 
 > Before you can start, you should prepare your development environment.
 
-### This test requires:
+## This test requires:
 
 - access to the internet
 - a php capable IDE (we suggest PhpStorm)
