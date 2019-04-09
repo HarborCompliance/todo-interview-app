@@ -114,6 +114,6 @@ As an unauthenticated user, I can filter tasks based on status
 - I can only see the tasks with the selected status.
 
 ## General Notes
-1) If you're looking for a timeframe estimate, we estimate this application to take roughly 5-7 hours of development time. We don't want you to worry about time too much however. We understand that everyone has busy lives and generally not much free time so we want you to focus on quality of code instead of sheer speed.
+1) If you're looking for a timeframe estimate, we estimate this application to take roughly 5-7 hours of development time. We don't want you to worry too much about the time though. We understand that everyone has busy lives and generally not much free time so we want you to focus on quality of code instead of sheer speed.
 
 2) There may be questions that arise during development. We encourage you to ask as many questions as you'd like. If you do have questions please send them to [Derek Fulginiti](mailto:dfulginiti@harborcompliance.com) and he will get back to you as soon as possible.
