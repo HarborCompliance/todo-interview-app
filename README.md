@@ -19,7 +19,7 @@ In order to develop an application using any of the above frameworks, you might 
 
 Before you can use Homestead, you need to install and configure Vagrant and Homestead as explained in the Homestead documentation.
 
-## Resources:
+## Resources
 
 - [Homestead Documentation](https://laravel.com/docs/5.8/homestead)
 - [Vagrant Documentation](https://www.vagrantup.com/)
