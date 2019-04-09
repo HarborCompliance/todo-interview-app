@@ -26,7 +26,7 @@ Before you can use Homestead, you need to install and configure Vagrant and Home
 
 ## Application User Stories
 
-The below user stories will provide details for what features that application should have.
+The below user stories will provide details for what features the application should have.
 
 *Story #1* - As an authenticated user, I want to create a task.
 
