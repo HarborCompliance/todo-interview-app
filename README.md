@@ -10,7 +10,7 @@ Using either CakePHP, Symfony, Laravel, or Yii
 - a php capable IDE (we suggest PhpStorm)
 - working setup of PHP 7.1+
 - mySQL 5.8+ (recommended)
-- composer (https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
+- composer ([getcomposer.org](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos))
 - nginx or alternative simple web server
 
 ## Setting up your development environment
@@ -21,7 +21,7 @@ Before you can use Homestead, you need to install and configure Vagrant and Home
 
 ## Resources
 
-- [Homestead Documentation](https://laravel.com/docs/5.8/homestead)
+- [Homestead Documentation](https://laravel.com/docs/homestead)
 - [Vagrant Documentation](https://www.vagrantup.com/)
 
 ## Application User Stories
