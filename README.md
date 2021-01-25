@@ -8,8 +8,8 @@ Using either CakePHP, Symfony, Laravel, or Yii
 
 - Access to the internet
 - A php capable IDE (we suggest PhpStorm)
-- Working setup of PHP 7.1+
-- MySQL 5.8+ (recommended)
+- Working setup of PHP 7.3+
+- MySQL 5.7+ (recommended)
 - Composer ([getcomposer.org](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos))
 - Nginx or alternative simple web server
 
