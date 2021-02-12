@@ -6,12 +6,12 @@ Using either CakePHP, Symfony, Laravel, or Yii
 
 ## This test requires:
 
-- access to the internet
-- a php capable IDE (we suggest PhpStorm)
-- working setup of PHP 7.1+
-- mySQL 5.8+ (recommended)
-- composer (https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
-- nginx or alternative simple web server
+- Access to the internet
+- A php capable IDE (we suggest PhpStorm)
+- Working setup of PHP 7.3+
+- MySQL 5.7+ (recommended)
+- Composer ([getcomposer.org](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos))
+- Nginx or alternative simple web server
 
 ## Setting up your development environment
 
@@ -21,7 +21,7 @@ Before you can use Homestead, you need to install and configure Vagrant and Home
 
 ## Resources
 
-- [Homestead Documentation](https://laravel.com/docs/5.8/homestead)
+- [Homestead Documentation](https://laravel.com/docs/homestead)
 - [Vagrant Documentation](https://www.vagrantup.com/)
 
 ## Application User Stories
@@ -44,7 +44,6 @@ The below user stories will provide details for what features the application sh
 - I should be redirected to the home page
 - And I see the new task
 
-
 *Story #2* - As an unauthenticated user, I can view all the tasks
 
 *Acceptance criteria*
@@ -61,7 +60,7 @@ The below user stories will provide details for what features the application sh
 
 - Given that I'm on the homepage,
 - I can see a login link,
-- When I press the login link, 
+- When I press the login link,
 - Then I'm redirected to the "login" page,
 - And I can see two required input fields on the page
   - username
